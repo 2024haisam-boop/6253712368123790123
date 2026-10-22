@@ -1,0 +1,19 @@
+.hero h1{letter-spacing:-.075em;font-size:clamp(80px,8.25vw,140px)}
+.move-word{display:block}
+.hero-copy{padding-bottom:0}
+.hero-copy>p{max-width:425px;font-size:17px;margin:26px 0}
+.brand-mark{position:relative;display:block;text-align:center;line-height:37px;padding-right:5px;letter-spacing:-.12em}
+.brand-mark span{position:absolute;right:3px;bottom:-1px;font-size:25px;line-height:1}
+.custom-cursor{opacity:0}
+.fallback-dashboard{width:100%;height:100%;padding:15px;background:#191a30;color:#efebfc}
+.fallback-dashboard>span{font:6px var(--font-m);color:var(--cyan)}
+.fallback-dashboard strong{display:block;font:700 27px/.95 var(--font-d);letter-spacing:-.06em;margin-top:15px}
+.fallback-dashboard>div{display:flex;align-items:end;height:35%;gap:7px;margin-top:10px;border-bottom:1px solid #7f71a0}
+.fallback-dashboard i{flex:1;height:40%;background:var(--accent)}.fallback-dashboard i:nth-child(2){height:60%}.fallback-dashboard i:nth-child(3){height:75%}.fallback-dashboard i:nth-child(4){height:55%}.fallback-dashboard i:nth-child(5){height:90%;background:var(--cyan)}.fallback-dashboard small{display:block;font:6px var(--font-m);margin-top:11px;color:#aba4c6}
+.orbit-core{display:flex;justify-content:center;gap:0;letter-spacing:-.06em}.orbit-core span{align-self:center}
+.lab-motion-object{display:flex;align-items:center;justify-content:center;letter-spacing:-.06em}
+.map-center{line-height:.95}
+.package.featured:before{content:"FULL PRODUCT NARRATIVE";font-size:7px;top:43px;left:27px;right:auto}
+@media(max-width:900px){.hero h1{font-size:clamp(80px,13vw,120px)}.move-word{display:inline}.hero-copy>p{max-width:500px}}
+@media(max-width:700px){.hero h1{font-size:clamp(57px,11vw,77px);letter-spacing:-.07em}.hero-copy>p{font-size:15px}.hero{padding-top:165px}.brand-mark{line-height:31px}.fallback-frame{width:55%;height:70%}.hero-actions{flex-direction:row;align-items:center}.hero-actions .button{min-width:170px;font-size:9px;padding:16px}.hero-actions .text-link{font-size:9px}.service-preview{height:100%}.service-preview-hit{min-height:270px}.lab-bottom{font-size:7px}.statement-inner{padding:35px 20px}}
+@media(max-width:420px){.hero h1{font-size:clamp(45px,11.6vw,51px)}.hero-actions{gap:18px}.hero-actions .text-link{font-size:8px}.hero-actions .arrow-glyph{margin-left:6px}.hero-actions .button{min-width:165px}.hero-stage-wrap:before{inset:-8px}.fallback-dashboard strong{font-size:25px}}

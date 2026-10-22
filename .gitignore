@@ -1,0 +1,11 @@
+.DS_Store
+.playwright-mcp/
+forthmotive-desktop-hero.png
+**/qa-*.png
+**/node_modules/
+**/.next/
+**/out/
+**/.env
+**/.env.local
+**/.env.*.local
+**/*.tsbuildinfo
